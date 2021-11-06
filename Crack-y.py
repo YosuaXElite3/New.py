@@ -43,13 +43,13 @@ def jembut():
 \x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Github   : https://github.com/yosuaXElite3
 \x1b[1;94m────────────────────────────────────────────────────""")
 
-def yayanxd():
-    yayan=input("\n\033[00m\t   [\033[96m Press Enter To Return\033[97m ] ")
-    if yayan == "": 
-       os.system("python Cr4ck.py")
+def yosuax():
+    yosua=input("\n\033[00m\t   [\033[96m Press Enter To Return\033[97m ] ")
+    if yosua == "": 
+       os.system("python crack-y.py")
     else:
        sys.exit("\n\033[1;97m [\033[1;91m•\033[1;97m] \033[1;91mGood Byee :')")
-def moch_yayan():
+def moch_yosua():
     time.sleep(0.1)
     print("\033[97m [\033[96m01\033[97m] Start  HACK ID FB")
     print("\033[97m [\033[96m02\033[97m] Tutor  How to Get Fb Cookies")
@@ -59,8 +59,8 @@ def moch_yayan():
     print("\x1b[1;94m────────────────────────────────────────────────────")
     time.sleep(0.1)
 
-    yayan=input("\x1b[1;97m [\x1b[1;94m•\x1b[1;91m•\x1b[1;97m] \033[90m►\033[1;93m ")
-    if yayan == "1" or yayan =="01":
+    yosua=input("\x1b[1;97m [\x1b[1;94m•\x1b[1;91m•\x1b[1;97m] \033[90m►\033[1;93m ")
+    if yosua == "1" or yosua =="01":
          mbasic = 'https://mbasic.facebook.com{}'
          global die,check,result, count
          id = []
@@ -218,7 +218,7 @@ def moch_yayan():
                    memek = input('\x1b[1;97m [\x1b[1;94m•\x1b[1;91m•\x1b[1;97m] \033[90m►\033[1;93m ')
                    if memek =="":
                          print("\n\n\033[00m [\033[91m!\033[00m] Wrong Input!")
-                         yayanxd()
+                         yosuax()
                    elif memek == '0' or memek =='00':
                          aahh("\n\033[1;92m Thank you for using my tools.\n  Don't forget to subscribe to My YouTube Channel\n\n")
                          exit()                   	
@@ -236,7 +236,7 @@ def moch_yayan():
                          aahh("\x1b[1;94m •••••••••• 100%")
                          os.system("rm -rf cookies")
                          print("\n\x1b[1;97m [\x1b[1;92m√\x1b[1;97m]\x1b[1;92m Deleted Successfully!")
-                         yayanxd()
+                         yosuax()
                    elif memek == '1' or memek =='01':
                          url = parser(ses.get(mbasic.format('/me'),cookies=kuki).content,'html.parser').find('a',string='Teman')
                          username = getid(mbasic.format(url["href"]))
@@ -296,7 +296,7 @@ def moch_yayan():
                                  exit("\n\033[00m[\033[91m!\033[00m] You Didn't Get Results")
                    else:
                          print("\n\n \033[00m[\033[91m!\033[00m] Wrong Input!")
-                         yayanxd()
+                         yosuax()
                    print()
                    ikeh_ikeh_kimochi()
                    jembut()
@@ -339,23 +339,22 @@ def moch_yayan():
                except requests.exceptions.ConnectionError:
                        exit("\n\n\033[00m  [\033[91m!\033[00m] no Connection")
 
-    elif yayan == "2" or yayan =="02":
+    elif yosua == "2" or yosua =="02":
          os.system("xdg-open https://youtu.be/72zvkSbVPOI") 
-         yayanxd()
-    elif yayan == "3" or yayan =="03":
+         yosuax()
+    elif yosua == "3" or yosua =="03":
          os.system('xdg-open https://www.facebook.com/groups/1592269051080491')
-         yayanxd()
-    elif yayan == "4" or yayan =="04":
+         yosuax()
+    elif yosua == "4" or yosua =="04":
          os.system('xdg-open https://www.facebook.com/groups/3877586212335618')
-         yayanxd()
-    elif yayan == "5" or yayan =="05":
+         yosuax()
+    elif yosua == "5" or yosua =="05":
          print("\n\n\x1b[1;97m      [ \x1b[1;92mPlease Wait While Updating The Tools \x1b[1;97m]\n")
          os.system("git pull")
          print("\n \x1b[1;97m[\x1b[1;92m√\x1b[1;97m]\x1b[1;92m Successfully Updated!\n ")
-         yayanxd()
-    elif yayan == "0" or yayan =="00":
+         yosuax()
+    elif yosua == "0" or yosua =="00":
          aahh("\n\033[1;92m Thank you for using my tools.\n  Don't forget to subscribe to My YouTube Channel\n\n")
-         os.system('xdg-open https://youtube.com/channel/UCNvDaXoyAVCNJbSqtaXA-mg')
          exit()                   	
 
 if __name__=="__main__":
@@ -363,6 +362,6 @@ if __name__=="__main__":
      croot()
      ikeh_ikeh_kimochi()
      kontol()
-     moch_yayan()
-     yayanxd()
+     moch_yosua()
+     yosuax()
 
