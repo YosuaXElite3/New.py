@@ -18,4 +18,4 @@ $ git clone https://github.com/YosuaXElite3/crack-y
 ```bash
 $ cd crack-y
 $ git pull
-$ python crack-y.py
+$ python elite3.py
